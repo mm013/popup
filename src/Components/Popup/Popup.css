@@ -1,0 +1,293 @@
+.uk-modal-dialog {
+  border: 1px solid white !important;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.heading {
+  display: flex;
+}
+
+img {
+  height: 50px;
+  /* margin-top: 5px; */
+}
+
+.uk-modal-title {
+  display: inline;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.textArea {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* justify-content: space-between; */
+}
+
+.inputTrain {
+  width: 93%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cdc7c2;
+}
+
+.inputDest {
+  /* display: inline; */
+  width: 93%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cdc7c2;
+}
+
+.textArea1 input[type="text"] {
+  padding-left: 30px;
+  padding-bottom: 3px;
+}
+
+.textArea1 .fa-train {
+  position: absolute;
+  left: 0;
+}
+
+.textArea2 {
+  margin-left: 53px;
+}
+
+.textArea2 input[type="text"] {
+  padding-left: 30px;
+  padding-bottom: 3px;
+}
+
+.textArea2 .fa-map-marker-alt {
+  position: absolute;
+  left: 0;
+  margin-left: 290px;
+  display: inline;
+}
+
+.dateBoxNew Datepicker {
+  width: 100%;
+  display: inline;
+}
+/* .boarding Datepicker {
+  padding-left: 30px;
+  border: 1px solid grey !important;
+} */
+
+.boarding {
+  margin-top: 50px;
+}
+
+.boarding span {
+  margin-left: 15px;
+}
+
+.dateBox {
+  background-color: #e1e0de;
+  color: #ffffff !important;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dateBox h4 {
+  margin: 0;
+}
+
+.orBox {
+  background-color: #e1e0de;
+  margin-top: 30px;
+  height: 20px;
+}
+
+.or {
+  margin: 0;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 235px;
+  margin-top: -20px;
+  padding: 0 20px 0 20px;
+  /* transform: translate(-100%, -90%); */
+}
+
+.pnrArea {
+  margin-top: 50px;
+  position: relative;
+}
+
+.pnrArea input[type="text"] {
+  padding-left: 30px;
+  padding-bottom: 5px;
+  width: 94%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cdc7c2;
+}
+
+.pnrArea input[type="type"]::placeholder {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.pnrArea .fa-train {
+  position: absolute;
+  left: 0;
+  /* margin-top: 5px; */
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.recommended {
+  background-color: #cdc7c2;
+}
+
+.recommended h6 {
+  margin: 0;
+  display: inline;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.recommended .fa-star {
+  margin-left: 30px;
+}
+
+.cards {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #cdc7c2;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+.pnrNo h4 {
+  margin: 0;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.pnrNo p {
+  margin: 0;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 80%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.trainDetails {
+  margin: 0;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.trendingSearch {
+  background-color: #cdc7c2;
+}
+
+.trendingSearch h6 {
+  margin: 0;
+  display: inline;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.trendingSearch .fa-chart-line {
+  margin-left: 30px;
+}
+
+.trendingCard {
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid #cdc7c2;
+  border-radius: 5px;
+  padding: 5px 10px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+.trendingCard p {
+  margin: 0;
+  margin-left: 5px;
+  display: inline;
+  font-weight: bold;
+}
+
+.uk-modal-footer {
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rate {
+  position: relative;
+  border: none;
+  background: transparent;
+  margin-left: 80px;
+}
+.rate h4 {
+  margin: 0;
+  font-weight: bold;
+  color: black;
+  display: inline;
+}
+
+.rate .fa-rupee-sign {
+  color: black !important;
+}
+
+.rate .symbol {
+  margin: 0;
+  margin-top: 3px;
+  margin-left: 8px;
+  position: absolute;
+  display: inline;
+}
+
+.rate h6 {
+  margin: 0;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  font-weight: bold;
+  display: inline;
+}
+
+.rate .fa-angle-down {
+  margin-left: 80px;
+}
+
+.rate .extra {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+  /* font-weight: bold; */
+}
+
+.proceed {
+  display: inline;
+  margin-left: 50px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 2px;
+  background-color: yellow;
+  padding: 8px 25px 8px 25px;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.proceed h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.proceed p {
+  margin: 0;
+  /* font-weight: bold; */
+  font-size: 11px;
+}
