@@ -3,23 +3,31 @@
   border-radius: 25px 25px 0px 0px;
 }
 
+.uk-modal-body {
+  padding: 20px 30px 25px 30px !important;
+}
+
 .heading {
   display: flex;
 }
 
 img {
-  height: 50px;
+  margin: 0;
+  height: 40px;
+  width: 40px;
   /* margin-top: 5px; */
 }
 
 .uk-modal-title {
   display: inline;
   margin: 0;
-  margin-left: 15px;
+  margin-left: 8px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .textArea {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -27,7 +35,7 @@ img {
 }
 
 .inputTrain {
-  width: 93%;
+  width: 90%;
   background: transparent;
   border: none;
   border-bottom: 1px solid #cdc7c2;
@@ -35,49 +43,59 @@ img {
 
 .inputDest {
   /* display: inline; */
-  width: 93%;
+  width: 90%;
   background: transparent;
   border: none;
   border-bottom: 1px solid #cdc7c2;
 }
 
 .textArea1 input[type="text"] {
-  padding-left: 30px;
+  padding-left: 18px;
   padding-bottom: 3px;
 }
 
 .textArea1 .fa-train {
   position: absolute;
+  /* font-size: 1px; */
   left: 0;
 }
 
+.textArea1 input::placeholder {
+  font-size: 12px;
+}
+
 .textArea2 {
-  margin-left: 53px;
+  margin-left: 30px;
 }
 
 .textArea2 input[type="text"] {
-  padding-left: 30px;
+  padding-left: 15px;
   padding-bottom: 3px;
 }
 
 .textArea2 .fa-map-marker-alt {
   position: absolute;
   left: 0;
-  margin-left: 290px;
+  margin-left: 56%;
   display: inline;
+}
+
+.textArea2 input::placeholder {
+  font-size: 12px;
+}
+
+.space {
+  margin-top: 30px;
 }
 
 .dateBoxNew Datepicker {
-  width: 100%;
+  border: none;
   display: inline;
 }
-/* .boarding Datepicker {
-  padding-left: 30px;
-  border: 1px solid grey !important;
-} */
 
 .boarding {
-  margin-top: 50px;
+  margin-top: 30px;
+  position: relative;
 }
 
 .boarding span {
@@ -95,33 +113,36 @@ img {
 
 .dateBox h4 {
   margin: 0;
+  font-size: 10px;
+  color: black;
 }
 
 .orBox {
   background-color: #e1e0de;
   margin-top: 30px;
-  height: 20px;
+  height: 10px;
 }
 
 .or {
   margin: 0;
   background-color: #fff;
   position: absolute;
-  margin-left: 235px;
-  margin-top: -20px;
-  padding: 0 20px 0 20px;
-  /* transform: translate(-100%, -90%); */
+  margin-left: 37%;
+  margin-top: -10px;
+  font-size: 10px;
+  padding: 0 5px 0 5px;
+  font-weight: bold;
 }
 
 .pnrArea {
-  margin-top: 50px;
+  margin-top: 30px;
   position: relative;
 }
 
 .pnrArea input[type="text"] {
   padding-left: 30px;
   padding-bottom: 5px;
-  width: 94%;
+  width: 100%;
   background: transparent;
   border: none;
   border-bottom: 1px solid #cdc7c2;
@@ -130,6 +151,7 @@ img {
 .pnrArea input[type="type"]::placeholder {
   margin-bottom: 5px;
   padding-bottom: 5px;
+  font-size: 12px;
 }
 
 .pnrArea .fa-train {
@@ -142,17 +164,20 @@ img {
 
 .recommended {
   background-color: #cdc7c2;
+  /* height: 20 px; */
 }
 
 .recommended h6 {
   margin: 0;
   display: inline;
-  margin-left: 10px;
+  margin-left: 5px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .recommended .fa-star {
   margin-left: 30px;
+  font-size: 12px;
 }
 
 .cards {
@@ -167,8 +192,9 @@ img {
 .pnrNo h4 {
   margin: 0;
   position: absolute;
-  margin-top: 15px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -176,16 +202,19 @@ img {
   margin: 0;
   position: absolute;
   margin-top: 15px;
-  margin-left: 80%;
+  margin-left: 75%;
   font-weight: bold;
+  font-size: 10px;
   font-style: italic;
 }
 
 .trainDetails {
   margin: 0;
-  margin-top: 50px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+  color: black;
   font-weight: bold;
+  font-size: 10px;
 }
 
 .trendingSearch {
@@ -195,8 +224,9 @@ img {
 .trendingSearch h6 {
   margin: 0;
   display: inline;
-  margin-left: 10px;
+  margin-left: 5px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .trendingSearch .fa-chart-line {
@@ -205,7 +235,7 @@ img {
 
 .trendingCard {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 5px;
   border: 1px solid #cdc7c2;
   border-radius: 5px;
   padding: 5px 10px 5px 5px;
@@ -214,11 +244,16 @@ img {
   display: inline-block;
 }
 
+.trendingCard .fa-chart-line {
+  font-size: 10px;
+}
+
 .trendingCard p {
   margin: 0;
   margin-left: 5px;
   display: inline;
   font-weight: bold;
+  font-size: 10px;
 }
 
 .uk-modal-footer {
@@ -229,23 +264,25 @@ img {
   position: relative;
   border: none;
   background: transparent;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 .rate h4 {
   margin: 0;
   font-weight: bold;
+  font-size: 15px;
   color: black;
   display: inline;
 }
 
 .rate .fa-rupee-sign {
   color: black !important;
+  font-size: 15px;
 }
 
 .rate .symbol {
   margin: 0;
-  margin-top: 3px;
-  margin-left: 8px;
+  margin-top: 1px;
+  margin-left: 4px;
   position: absolute;
   display: inline;
 }
@@ -253,27 +290,28 @@ img {
 .rate h6 {
   margin: 0;
   position: absolute;
-  margin-left: 20px;
-  margin-top: 4px;
+  margin-left: 12px;
+  margin-top: 5px;
   font-weight: bold;
+  font-size: 10px;
   display: inline;
 }
 
 .rate .fa-angle-down {
-  margin-left: 80px;
+  margin-left: 60px;
+  margin-top: 5px;
 }
 
 .rate .extra {
   margin: 0;
-  font-size: 12px;
+  font-size: 8px;
   font-style: italic;
-  /* font-weight: bold; */
 }
 
 .proceed {
   display: inline;
-  margin-left: 50px;
-  margin-top: 15px;
+  float: inline-end;
+  margin-top: 5px;
   border: none;
   border-radius: 2px;
   background-color: yellow;
@@ -284,10 +322,10 @@ img {
 .proceed h4 {
   margin: 0;
   font-weight: bold;
+  font-size: 10px;
 }
 
 .proceed p {
   margin: 0;
-  /* font-weight: bold; */
-  font-size: 11px;
+  font-size: 8px;
 }
